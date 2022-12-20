@@ -8,7 +8,7 @@ const { connection } = require("./Config/db");
 const { userRouter } = require("./Routes/User.route");
 
 app.get("/", (req, res) => {
-  res.send("Main Home Page");
+  res.send("Main Home ");
 });
 
 app.use("/", userRouter);
