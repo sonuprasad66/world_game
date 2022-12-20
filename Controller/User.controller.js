@@ -1,5 +1,5 @@
 const express = require("express");
-const { userModel } = require("../models/User.model");
+const { userModel } = require("../Models/User.model");
 
 const addUser = async (req, res) => {
   const { name, level } = req.body;
