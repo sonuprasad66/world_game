@@ -16,10 +16,10 @@ app.use("/", userRouter);
 app.listen(process.env.PORT, async () => {
   try {
     await connection;
-    console.log("Database Connected Successful");
+    console.log("db Connected Successful");
     console.log(`App Listening on PORT ${process.env.PORT}`);
   } catch (err) {
-    console.log("Database Connected Faild");
+    console.log("db Connected Faild");
     console.log(err);
   }
 });
